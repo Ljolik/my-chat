@@ -1,0 +1,7 @@
+git clone https://github.com/Ljolik/my-chat.git
+cd my-chat
+echo -e "#!/bin/bash\n\necho \"Hello, world!\"" > script.sh
+chmod +x script.sh
+git add script.sh
+git commit -m "Add script.sh"
+git push origin main  # или master, в зависимости от основной ветки
